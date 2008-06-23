@@ -1,22 +1,29 @@
 --- #YAML:1.0
 name:                XML-LibXSLT-Easy
-version:             0.01
+version:             0.02
 abstract:            ~
 license:             ~
 author:              ~
 generated_by:        ExtUtils::MakeMaker version 6.44
 distribution_type:   module
 requires:     
+    Config::Any:                   0
     Devel::PartialDump:            0
-    Moose:                         0
+    File::Glob:                    0
+    Moose:                         0.50
+    MooseX::Types:                 0
     MooseX::Types::Moose:          0
     MooseX::Types::Path::Class:    0
     MooseX::Types::URI:            0
     MooseX::Types::VariantTable:   0
     namespace::clean:              0.08
     Path::Class:                   0
+    Scope::Guard:                  0
+    Test::Exception:               0
+    Test::More:                    0
     Test::use::ok:                 0
     Test::XML:                     0
+    URI:                           0
     XML::LibXML:                   0
     XML::LibXSLT:                  0
 meta-spec:
